@@ -40,14 +40,14 @@
     Sebuah alat berbasis arduino yang digunakan untuk absen dengan fitur scanning FRID/Fingerprint/Face recognition lalu diproses ke Website/Web server. 
     Untuk mengembangkan project ini anda dapat mempelajari beberapa 2 dasar bahasa pemograman yaitu <a href="https://www.w3schools.com/cpp/">C++</a> dan <a href="https://www.w3schools.com/PHP/">PHP</a>.
     <br/>
-    <a href="https://github.com/sayadedi00/absen.me"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/sayadedi00/absen.me"><strong>Baca dokumen »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/sayadedi00/absen.me">View Demo</a>
+    <a href="https://github.com/sayadedi00/absen.me">Lihat demo</a>
     ·
-    <a href="https://github.com/sayadedi00/absen.me/issues">Report Bug</a>
+    <a href="https://github.com/sayadedi00/absen.me/issues">Laporkan Bug</a>
     ·
-    <a href="https://github.com/sayadedi00/absen.me/issues">Request Feature</a>
+    <a href="https://github.com/sayadedi00/absen.me/issues">Request Fitur</a>
   </p>
 </p>
 
@@ -55,27 +55,26 @@
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
-  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <summary><h2 style="display: inline-block">Tabel konten</h2></summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#about-the-project">Tentang project</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#built-with">Dibuat menggunakan</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#getting-started">Memulai</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#prerequisites">Syarat</a></li>
+        <li><a href="#installation">Installasi</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
+    <li><a href="#usage">Pemakaian</a></li>
+    <li><a href="#contributing">Berkontribusi</a></li>
+    <li><a href="#license">Lisensi</a></li>
+    <li><a href="#contact">Kontak</a></li>
+    <li><a href="#acknowledgements">Ucapan Terima Kasih</a></li>
   </ol>
 </details>
 
@@ -86,14 +85,13 @@
 
 [![abesent][product-screenshot]](https://absen.me)
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
+Sebuah alat berbasis arduino yang digunakan untuk absen dengan fitur scanning FRID/Fingerprint/Face recognition lalu diproses ke Website/Web server. 
+    Untuk mengembangkan project ini anda dapat mempelajari beberapa 2 dasar bahasa pemograman yaitu <a href="https://www.w3schools.com/cpp/">C++</a> dan <a href="https://www.w3schools.com/PHP/">PHP</a>.
 
 
 ### Built With
 
-* []()
+* [PHP](PHP)
 * []()
 * []()
 
