@@ -31,7 +31,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/sayadedi00/absen.me">
-    <img src="images/logo.jpg" alt="Logo" width="80" height="80">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Abesent</h3>
