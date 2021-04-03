@@ -185,13 +185,13 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/sayadedi00/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/sayadedi00/repo/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/sayadedi00/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/sayadedi00/repo/network/members
-[stars-shield]: https://img.shields.io/github/stars/sayadedi00/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/sayadedi00/repo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/sayadedi00/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/sayadedi00/repo/issues
-[license-shield]: https://img.shields.io/github/license/sayadedi00/repo.svg?style=for-the-badge
-[license-url]: https://github.com/sayadedi00/repo/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/sayadedi00/absen.me.svg?style=for-the-badge
+[contributors-url]: https://github.com/sayadedi00/absen.me/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/sayadedi00/absen.me.svg?style=for-the-badge
+[forks-url]: https://github.com/sayadedi00/absen.me/network/members
+[stars-shield]: https://img.shields.io/github/stars/sayadedi00/absen.me.svg?style=for-the-badge
+[stars-url]: https://github.com/sayadedi00/absen.me/stargazers
+[issues-shield]: https://img.shields.io/github/issues/sayadedi00/absen.me.svg?style=for-the-badge
+[issues-url]: https://github.com/sayadedi00/absen.me/issues
+[license-shield]: https://img.shields.io/github/license/sayadedi00/absen.me.svg?style=for-the-badge
+[license-url]: https://github.com/sayadedi00/absen.me/blob/master/LICENSE.txt
