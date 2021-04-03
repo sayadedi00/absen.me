@@ -74,7 +74,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Tentang Project
 
 [![abesent][product-screenshot]](https://absen.me)
 
@@ -82,14 +82,14 @@ Sebuah alat berbasis arduino yang digunakan untuk absen dengan fitur scanning FR
     Untuk mengembangkan project ini anda dapat mempelajari beberapa 2 dasar bahasa pemograman yaitu <a href="https://www.w3schools.com/cpp/">C++</a> dan <a href="https://www.w3schools.com/PHP/">PHP</a>.
 
 
-### Built With
+### Dibuat dengan
 
 * [PHP](PHP)
 * [C++](C++)
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Pengguanan
 
 Gunakan ini untuk menunjukkan contoh berguna tentang bagaimana proyek dapat digunakan. Tangkapan layar tambahan, contoh kode, dan dem. Anda juga dapat menautkan ke lebih banyak sumber daya.
 
@@ -97,15 +97,8 @@ _Untuk contoh, dapat dilihat disini [Documentation](https://github.com/sayadedi0
 
 
 
-<!-- ROADMAP -->
-## Roadmap
-
-Lihat [open issues](https://github.com/sayadedi00/absen.me/issues) untuk daftar fitur yang diusulkan (dan masalah yang diketahui).
-
-
-
 <!-- CONTRIBUTING -->
-## Contributing
+## Kontribusi
 
 Kontribusi adalah yang membuat komunitas open source menjadi tempat yang luar biasa untuk belajar, menginspirasi, dan berkreasi. Setiap kontribusi yang Anda berikan ** sangat dihargai **.
 
@@ -118,14 +111,14 @@ Kontribusi adalah yang membuat komunitas open source menjadi tempat yang luar bi
 
 
 <!-- LICENSE -->
-## License
+## Lisensi
 
 Didistribusikan dibawah MIT License. Lihat `LICENSE` untuk informasi lebih lanjut.
 
 
 
 <!-- CONTACT -->
-## Contact
+## Kontak
 
 Muhammad Iqbal - [@twitter_handle](https://twitter.com/sayadedi00) - email
 
