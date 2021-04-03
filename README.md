@@ -63,13 +63,6 @@
         <li><a href="#built-with">Dibuat menggunakan</a></li>
       </ul>
     </li>
-    <li>
-      <a href="#getting-started">Memulai</a>
-      <ul>
-        <li><a href="#prerequisites">Syarat</a></li>
-        <li><a href="#installation">Installasi</a></li>
-      </ul>
-    </li>
     <li><a href="#usage">Pemakaian</a></li>
     <li><a href="#contributing">Berkontribusi</a></li>
     <li><a href="#license">Lisensi</a></li>
@@ -92,88 +85,58 @@ Sebuah alat berbasis arduino yang digunakan untuk absen dengan fitur scanning FR
 ### Built With
 
 * [PHP](PHP)
-* []()
-* []()
-
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-To get a local copy up and running follow these simple steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-1. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-2. Install NPM packages
-   ```sh
-   npm install
-   ```
-
+* [C++](C++)
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Gunakan ini untuk menunjukkan contoh berguna tentang bagaimana proyek dapat digunakan. Tangkapan layar tambahan, contoh kode, dan dem. Anda juga dapat menautkan ke lebih banyak sumber daya.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+_Untuk contoh, dapat dilihat disini [Documentation](https://github.com/sayadedi00/absen.me)_
 
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a list of proposed features (and known issues).
+Lihat [open issues](https://github.com/sayadedi00/absen.me/issues) untuk daftar fitur yang diusulkan (dan masalah yang diketahui).
 
 
 
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Kontribusi adalah yang membuat komunitas open source menjadi tempat yang luar biasa untuk belajar, menginspirasi, dan berkreasi. Setiap kontribusi yang Anda berikan ** sangat dihargai **.
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+1. Fork project ini
+2. buat Feature Branch milikmu (`git checkout -b feature/AmazingFeature`)
+3. Commit yang kamu ubah (`git commit -m 'Add some AmazingFeature'`)
+4. Masukan ke branch (`git push origin feature/AmazingFeature`)
+5. Buka permintaan tarik
 
 
 
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Didistribusikan dibawah MIT License. Lihat `LICENSE` untuk informasi lebih lanjut.
 
 
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+Muhammad Iqbal - [@twitter_handle](https://twitter.com/sayadedi00) - email
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/sayadedi00/absen.me](https://github.com/sayadedi00/absen.me)
 
 
 
 <!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
+## Ucapan terima kasih kepada
 
-* []()
-* []()
-* []()
+* Allah SWT.
 
 
 
