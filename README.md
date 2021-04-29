@@ -84,14 +84,17 @@ Sebuah alat berbasis arduino yang digunakan untuk absen dengan fitur scanning FR
 
 * [PHP](PHP)
 * [C++](C++)
+* [CSS](CSS)
+* [SCSS](SCSS)
+* [JS](JS)
 
 
 <!-- USAGE EXAMPLES -->
 ## Pengguanan
 
-Gunakan ini untuk menunjukkan contoh berguna tentang bagaimana proyek dapat digunakan. Tangkapan layar tambahan, contoh kode, dan dem. Anda juga dapat menautkan ke lebih banyak sumber daya.
+Anda dapat menggunakan ini untuk membuat sistem absensi berbasis arduino buatan anda sendiri, semua kode sudah terintegrasi secara penuh. Anda hanya butuh mengupload file website dan mengubah confignya serta mengubah settingan pada kode arduino. Semua source ini tidak untuk diperjual belikan namun hanya untuk pembelajaran bagi teman-teman semua.
 
-_Untuk contoh, dapat dilihat disini [Documentation](https://github.com/sayadedi00/absen.me)_
+_Untuk contoh, dapat dilihat disini [Dokumentasi](https://github.com/sayadedi00/absen.me)_
 
 
 
@@ -118,9 +121,9 @@ Didistribusikan dibawah MIT License. Lihat `LICENSE` untuk informasi lebih lanju
 <!-- CONTACT -->
 ## Kontak
 
-Muhammad Iqbal - [@twitter_handle](https://twitter.com/sayadedi00) - email
+Muhammad Iqbal - [@Twitter](https://twitter.com/sayadedi00) - rizki.andrian45@gmail.com
 
-Project Link: [https://github.com/sayadedi00/absen.me](https://github.com/sayadedi00/absen.me)
+Link Proyek: [https://github.com/sayadedi00/absen.me](https://github.com/sayadedi00/absen.me)
 
 
 
