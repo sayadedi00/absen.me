@@ -90,7 +90,7 @@ Sebuah alat berbasis arduino yang digunakan untuk absen dengan fitur scanning FR
 
 
 <!-- USAGE EXAMPLES -->
-## Pengguanan
+## Penggunaan
 
 Anda dapat menggunakan ini untuk membuat sistem absensi berbasis arduino buatan anda sendiri, semua kode sudah terintegrasi secara penuh. Anda hanya butuh mengupload file website dan mengubah confignya serta mengubah settingan pada kode arduino. Semua source ini tidak untuk diperjual belikan namun hanya untuk pembelajaran bagi teman-teman semua.
 
