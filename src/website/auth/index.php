@@ -1,5 +1,15 @@
 <?php
+	//Start a session
+	session_start();
+
+	//Includes
 	include $_SERVER['DOCUMENT_ROOT'].'/includes/class.loading.php';
+	include $_SERVER['DOCUMENT_ROOT'].'/includes/functions.php';
+
+	//Check if login or not
+	if(isset($_SESSION['login'])){
+		route("dashboard");
+	}
 
 	$loader = new Loading();
 ?>

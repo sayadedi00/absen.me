@@ -34,4 +34,14 @@ function route($string)
 	die();
 }
 
+function CheckLogin()
+{
+	if($_SESSION['login']){
+		route("dashboard");
+	}
+	else{
+		route("auth");
+	}
+}
+
 ?>

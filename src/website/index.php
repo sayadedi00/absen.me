@@ -16,11 +16,5 @@
   </body>
 </html>
 <?php
-	if($_SESSION['login']){
-		route("dashboard");
-	}
-	else{
-		route("auth");
-	}
-
+  CheckLogin();
 ?>
