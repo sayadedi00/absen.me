@@ -5,7 +5,7 @@
 		public $db;
 
 		/* Registration*/
-		public function register($name, $password, $email){
+		public function register($id, $name, $password, $email, $admin){
 			$conn = db();
 			$password = md5($password);
 			$sql = "SELECT * FROM users WHERE nama='$name' OR email='$email'";
@@ -15,7 +15,7 @@
 			$count_row = $check->num_rows;
 
 			if ($check->num_rows == 0){
-				$sql = "INSERT INTO users SET nama='$name', password='$password', email='$email'";
+				$sql = "UPDATE `users` SET `nama`=$name,`email`=$email,`password`='$password',`admin`='$admin' WHERE id=$id";
 				$result = $conn->query($sql);
 				return $result;
 			}
@@ -56,6 +56,15 @@
 			echo $user_data['nama'];
 		}
 
+		public function get_jabatan($uid)
+		{
+			$conn = db();
+			$sql="SELECT jabatan FROM users WHERE id = $uid";
+			$result = $conn->query($sql);
+			$user_data = $result->fetch_assoc();
+			echo $user_data['jabatan'];
+		}
+		
 		/* Get session */
 		public function get_session()
 		{

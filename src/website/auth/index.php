@@ -20,7 +20,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
-	<link rel="icon" type="image/png" href="../images/icons/favicon.ico"/>
+	<link rel="icon" type="image/png" href="../images/favicon.ico"/>
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="../vendor/bootstrap/css/bootstrap.min.css">
 <!--===============================================================================================-->
@@ -48,11 +48,11 @@
 
 				<form class="login100-form validate-form" id="login" method="POST" action="login" onsubmit="return do_login();">
 					<span class="login100-form-title">
-						Member Login
+						Login
 					</span>
 
 					<div class="wrap-input100 validate-input" data-validate = "Email tidak valid: ex@abc.xyz">
-						<input id="email" class="input100" type="text" name="email" placeholder="Email">
+						<input id="email" class="input100" type="text" name="email" placeholder="Email" autocomplete="off">
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-envelope" aria-hidden="true"></i>
@@ -60,7 +60,7 @@
 					</div>
 
 					<div class="wrap-input100 validate-input" data-validate = "Kata sandi dibutuhkan">
-						<input id="password" class="input100" type="password" name="password" placeholder="Kata sandi">
+						<input id="password" class="input100" type="password" name="password" placeholder="Kata sandi" autocomplete="off">
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-lock" aria-hidden="true"></i>
@@ -129,7 +129,7 @@
 						    Swal.fire({
 							  icon: 'error',
 							  title: 'Oops...',
-							  text: 'Invalid username or password!'
+							  text: 'Invalid email or password!'
 							})
 						}
 		  			}
