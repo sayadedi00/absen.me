@@ -71,6 +71,25 @@
 			return $_SESSION['login'];
 		}
 
+		public function delete($id)
+		{
+			$conn = db();
+			$sql = "UPDATE `users` SET `nama`='',`email`='',`password`='',`admin`='',`jabatan`='Karyawan',`fingerprint_id`='0',`date`='',`gender`='', `delete_id`='$id' WHERE id='$id'";
+			$conn->query($sql);
+			$sql = "DELETE FROM `absent` WHERE user_id='$id'";
+			$conn->query($sql);
+		}
+
+		public function checkAvail($query)
+		{
+			$conn = db();
+			$sql = "SELECT * FROM users WHERE $query";
+
+			$data = $conn->query($sql);
+
+			return $data->num_rows;
+		}
+
 		public function logout()
 		{
 			$_SESSION['login'] = false;

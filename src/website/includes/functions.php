@@ -10,7 +10,6 @@ function VisitorIP()
  	return trim($ip);
 }
 
-
 function generateRandomString($length = 10) {
     return substr(str_shuffle(str_repeat($x='123456789', ceil($length/strlen($x)) )),1,$length);
 }

@@ -1,7 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <?php $loader->addCSS("../images/loading.gif"); ?>
+    <?php 
+      $loader->addCSS("../images/loading.gif");
+
+      $conn = db();
+      $sql = "SELECT * FROM users WHERE fingerprint_id!=0 AND nama=''";
+
+      $count = $conn->query($sql);
+      $count = $count->num_rows;
+    ?>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -25,8 +33,8 @@
       <!-- partial:partials/_navbar.html -->
       <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
         <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-          <a class="navbar-brand brand-logo" href="index.html"><img src="../images/logo.svg" alt="logo" /></a>
-          <a class="navbar-brand brand-logo-mini" href="index.html"><img src="../images/logo-mini.svg" alt="logo" /></a>
+          <a class="navbar-brand brand-logo" href="/"><img src="../images/logo.svg" alt="logo" /></a>
+          <a class="navbar-brand brand-logo-mini" href="/"><img src="../images/logo-mini.svg" alt="logo" /></a>
         </div>
         <div class="navbar-menu-wrapper d-flex align-items-stretch">
           <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
@@ -83,9 +91,21 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">
-                <span class="menu-title">Dashboard</span>
+              <a class="nav-link" href="/">
+                <span class="menu-title">Halaman utama</span>
                 <i class="mdi mdi-home menu-icon"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="register-user">
+                <span class="menu-title">User belum terdaftar (<?php echo $count; ?>)</span>
+                <i class="mdi mdi-account-multiple-plus menu-icon"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="users">
+                <span class="menu-title">Daftar User</span>
+                <i class="mdi mdi-account-multiple menu-icon"></i>
               </a>
             </li>
           </ul>
