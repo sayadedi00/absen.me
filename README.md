@@ -37,7 +37,7 @@
   <h3 align="center">Abesent</h3>
 
   <p align="center">
-    Sebuah alat berbasis arduino yang digunakan untuk absen dengan fitur scanning FRID/Fingerprint/Face recognition lalu diproses ke Website/Web server. 
+    Sebuah alat berbasis arduino yang digunakan untuk absen dengan fitur scanning Fingerprint lalu diproses ke Website/Web server. 
     Untuk mengembangkan project ini anda dapat mempelajari beberapa 2 dasar bahasa pemograman yaitu <a href="https://www.w3schools.com/cpp/">C++</a> dan <a href="https://www.w3schools.com/PHP/">PHP</a>.
     <br/>
     <a href="https://github.com/sayadedi00/absen.me"><strong>Baca dokumen »</strong></a>
