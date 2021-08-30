@@ -1,5 +1,6 @@
 <?php 
   include $_SERVER['DOCUMENT_ROOT'].'/dashboard/modules.php';
+  $title = "Mendaftarkan user";
   include_once "header.php"; 
 ?>
         <!-- partial -->

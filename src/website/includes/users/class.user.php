@@ -56,6 +56,16 @@
 			echo $user_data['nama'];
 		}
 
+		public function get_admin($uid)
+		{
+			$conn = db();
+			$sql="SELECT admin FROM users WHERE id = $uid";
+			$result = $conn->query($sql);
+			$user_data = $result->fetch_assoc();
+			return $user_data['admin'];
+		}
+
+
 		public function get_jabatan($uid)
 		{
 			$conn = db();
@@ -74,7 +84,7 @@
 		public function delete($id)
 		{
 			$conn = db();
-			$sql = "UPDATE `users` SET `nama`='',`email`='',`password`='',`admin`='',`jabatan`='Karyawan',`fingerprint_id`='0',`date`='',`gender`='', `delete_id`='$id' WHERE id='$id'";
+			$sql = "UPDATE `users` SET `nama`='',`email`='',`password`='',`admin`=0,`jabatan`='Karyawan',`fingerprint_id`='0',`date`='',`gender`=0, `delete_id`='$id' WHERE id='$id'";
 			$conn->query($sql);
 			$sql = "DELETE FROM `absent` WHERE user_id='$id'";
 			$conn->query($sql);

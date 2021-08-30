@@ -13,7 +13,15 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Absent.me - Absensi Online Berbasis Arduino</title>
+    <title><?php
+      echo $site['name']." - ";
+      if(isset($title)){
+        echo $title;
+      }
+      else{
+        echo 'Arduino based attendance system';
+      }
+    ?></title>
     <!-- plugins:css -->
     <link rel="stylesheet" href="../vendors/mdi/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="../vendors/css/vendor.bundle.base.css">
@@ -27,7 +35,7 @@
     <!-- End layout styles -->
     <link rel="shortcut icon" href="../images/favicon.ico" />
   </head>
-  <body>
+  <body class="sidebar-icon-only">
     <?php $loader->addBody(); ?>
     <div class="container-scroller">
       <!-- partial:partials/_navbar.html -->
@@ -78,7 +86,7 @@
         <nav class="sidebar sidebar-offcanvas" id="sidebar">
           <ul class="nav">
             <li class="nav-item nav-profile">
-              <a href="#" class="nav-link">
+              <a href="/dashboard/" class="nav-link">
                 <div class="nav-profile-image">
                   <img src="../images/faces/tenor.png.gif" alt="profile">
                   <span class="login-status online"></span>
@@ -91,21 +99,35 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/">
+              <a class="nav-link" href="/dashboard/">
                 <span class="menu-title">Halaman utama</span>
                 <i class="mdi mdi-home menu-icon"></i>
               </a>
             </li>
+            <?php if($user->get_admin($_SESSION['uid']) == 1){ ?>
             <li class="nav-item">
               <a class="nav-link" href="register-user">
-                <span class="menu-title">User belum terdaftar (<?php echo $count; ?>)</span>
+                <span class="menu-title">Daftarkan (<?php echo $count; ?>)</span>
                 <i class="mdi mdi-account-multiple-plus menu-icon"></i>
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="users">
-                <span class="menu-title">Daftar User</span>
+                <span class="menu-title">List user</span>
                 <i class="mdi mdi-account-multiple menu-icon"></i>
+              </a>
+            </li>
+            <?php } ?>
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/sayadedi00/absen.me">
+                <span class="menu-title">Github</span>
+                <i class="mdi mdi-github-circle menu-icon"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="logout">
+                <span class="menu-title">Logout</span>
+                <i class="mdi mdi-logout menu-icon"></i>
               </a>
             </li>
           </ul>

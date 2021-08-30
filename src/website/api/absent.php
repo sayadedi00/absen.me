@@ -4,14 +4,14 @@
 	include $_SERVER['DOCUMENT_ROOT'].'/includes/dates.php';
 
 	$user = new User();
-
+	
 	if(!isset($_GET['id'])){
-		echo "0";
+		echo "id tidak valid";
 		die();
 	}
 	$id = escapeString($_GET['id']);
 	if($user->checkAvail("fingerprint_id='$id' AND nama=''") > 0){
-		echo "0";
+		echo "id tidak ditemukan";
 		die();
 	}
 
@@ -30,22 +30,22 @@
 		$check = $conn->query($check);
 
 		if($check->num_rows > 0){
-			echo $data['nama']." sudah absen";
+			echo $data['nama']." sudah absen masuk";
 			die();
 		}
 		$sql = "INSERT INTO `absent`(`user_id`, `tanggal`, `type`, `late`, `day`) VALUES ('$id', '".$date['now']."', 'Hadir', 0, '0')";
 		echo $data['nama'];
 	}
-	else if($date['now_timestamp'] >= $date['morning_late'] && $date['now_timestamp'] <= $date['center']){
+	else if($date['now_timestamp'] >= $date['morning_late'] && $date['now_timestamp'] <= $date['afternoon_timestamp']){
 		$check = "SELECT * FROM absent WHERE `tanggal` > now() - INTERVAL 12 HOUR AND day=0 AND user_id='$id'";
 		$check = $conn->query($check);
 
 		if($check->num_rows > 0){
-			echo $data['nama']." sudah absen";
+			echo $data['nama']." sudah absen masuk";
 			die();
 		}
 		$late = $date['now_timestamp'] - $date['morning_late'];
-		$sql = "INSERT INTO `absent`(`user_id`, `tanggal`, `type`, `late`, `day`) VALUES ('$id', '".$date['now']."', 'Terlambat', 0, '0')";
+		$sql = "INSERT INTO `absent`(`user_id`, `tanggal`, `type`, `late`, `day`) VALUES ('$id', '".$date['now']."', 'Terlambat', '$late', '0')";
 
 		$input = $conn->query($sql);
 		echo $data['nama']." anda telat";
@@ -55,7 +55,7 @@
 		$check = $conn->query($check);
 
 		if($check->num_rows > 0){
-			echo $data['nama']." sudah absen";
+			echo $data['nama']." sudah absen pulang";
 			die();
 		}
 		$sql = "INSERT INTO `absent`(`user_id`, `tanggal`, `type`, `late`, `day`) VALUES ('$id', '".$date['now']."', 'Hadir', 0, '1')";
@@ -66,7 +66,7 @@
 		$check = $conn->query($check);
 
 		if($check->num_rows > 0){
-			echo $data['nama']." sudah absen";
+			echo $data['nama']." sudah absen pulang";
 			die();
 		}
 
@@ -79,7 +79,7 @@
 		//echo gmdate("h:i:s", $date['center_night'] - $date['afternoon_late']);
 	}	
 	else{
-		echo "0";
+		echo "gatau gaada";
 	}
 
 ?>

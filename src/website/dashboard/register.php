@@ -13,6 +13,8 @@
     route("dashboard");
   }
 
+  $title = "Mendaftarkan user";
+
   $data = $check->fetch_array();
   include_once "header.php";
 ?>

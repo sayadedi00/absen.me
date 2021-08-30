@@ -24,7 +24,7 @@
 	}
 
 	if($check->num_rows == 0){
-		echo "NONE";
+		echo "0";
 	}
 
 ?>

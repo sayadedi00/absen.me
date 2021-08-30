@@ -27,7 +27,7 @@
     <!-- Custom js for this page -->
     <script src="../js/dashboard.js"></script>
     <script src="../js/todolist.js"></script>
-    <?php $loader->addJS(700); ?>
+    <?php $loader->addJS(200); ?>
     <!-- End custom js for this page -->
   </body>
 </html>

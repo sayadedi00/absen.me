@@ -13,12 +13,14 @@
 
 		$absent = $conn->query("SELECT * FROM absent WHERE `tanggal` >= '".$date['morning']."' AND user_id='$id' AND `day`='0'");
 		if($absent->num_rows == 0 && $date['now_timestamp'] >= $date['center']){
-			$conn->query("INSERT INTO `absent`(`user_id`, `tanggal`, `type`, `late`, `day`) VALUES ('$id', '".$date['morning']."', 'Tidak Hadir', 0, 0)");
+			$late = $date['afternoon_timestamp'] - $date['morning_timestamp'];
+			$conn->query("INSERT INTO `absent`(`user_id`, `tanggal`, `type`, `late`, `day`) VALUES ('$id', '".$date['morning']."', 'Tidak Hadir', '$late', 0)");
 		}
 
 		$absent = $conn->query("SELECT * FROM absent WHERE tanggal >= '".$date['afternoon']."' AND user_id='$id' AND `day`='1'");
 		if($absent->num_rows == 0 && $date['now_timestamp'] >= strtotime($date['center_no_2'])){
-			$conn->query("INSERT INTO `absent`(`user_id`, `tanggal`, `type`, `late`, `day`) VALUES ('$id', '".$date['afternoon']."', 'Tidak Hadir', 0, 1)");
+			$late = $date['center_night'] - $date['afternoon_timestamp'];
+			$conn->query("INSERT INTO `absent`(`user_id`, `tanggal`, `type`, `late`, `day`) VALUES ('$id', '".$date['afternoon']."', 'Tidak Hadir', '$late', 1)");
 		}
 	}
 ?>
