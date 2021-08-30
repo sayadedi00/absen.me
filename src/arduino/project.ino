@@ -6,11 +6,10 @@
 #include "LiquidCrystal_I2C.h"
 /* Defines */
 // Wifi use 12 for RX, 13 for TX 
-#define wifis "WIFI IQBAL ADA 2"
-#define passwords "iqbalpro123"
+#define wifis "YOUR WIFI"
+#define passwords "YOUR PASSWORD"
 #define FINGER_RX 10
 #define FINGER_TX 11
-
 #define b_check 2
 #define b_daftar 3
 #define b_delete 4
