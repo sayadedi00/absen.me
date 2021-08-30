@@ -43,7 +43,7 @@
     <a href="https://github.com/sayadedi00/absen.me"><strong>Baca dokumen »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/sayadedi00/absen.me">Lihat demo</a>
+    <a href="http://194.180.177.151/">Lihat demo</a>
     ·
     <a href="https://github.com/sayadedi00/absen.me/issues">Laporkan Bug</a>
     ·
