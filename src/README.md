@@ -65,16 +65,8 @@ SDL         	  |  21
 
 |Name           |   Wiring to Arduino Uno|
 |---------------|------------------------|
-BUTTON_1        |   Digital 2 ke GND
-BUTTON_2        |   Digital 3 ke GND
-BUTTON_3        |   Digital 4 ke GND
-BUZZER          |   PIN 8 ke GND
+BUTTON_1        |   Digital 2 to GND
+BUTTON_2        |   Digital 3 to GND
+BUTTON_3        |   Digital 4 to GND
+BUZZER          |   PIN 8 to GND
 
-
-
-## Contributors ✨
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
