@@ -29,6 +29,7 @@ int is;
 uint8_t id;
 uint8_t pilih = 0;
 String scan_id;
+String webs = "Your domain (without https/http)";
 
 /* Arduino Functions */
 void setup(){
@@ -124,7 +125,7 @@ void loop(){
   
     Serial.println(espat.clientIP());
     Serial.print("Random register id: ");
-    esp_get = espat.get("194.180.177.151", "/api/register", 80);
+    esp_get = espat.get(webs, "/api/register", 80);
     esp_get.remove(0,1);
   
     is = esp_get.toInt();
@@ -151,7 +152,7 @@ void loop(){
   
     Serial.println(espat.clientIP());
     Serial.print("Random register id: ");
-    esp_get = espat.get("194.180.177.151", "/api/delete", 80);
+    esp_get = espat.get(webs, "/api/delete", 80);
     esp_get.remove(0,1);
   
     is = esp_get.toInt();
@@ -210,7 +211,7 @@ void loop(){
     
       Serial.println(espat.clientIP());
       Serial.print("Random register id: ");
-      esp_get = espat.get("194.180.177.151", "/api/absent?id="+scan_id, 80);
+      esp_get = espat.get(webs, "/api/absent?id="+scan_id, 80);
       esp_get.remove(0,1);
       Serial.println(esp_get);
       set_lcd("Halo,", esp_get);
