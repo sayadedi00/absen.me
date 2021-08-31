@@ -68,5 +68,5 @@ SDL         	  |  21
 BUTTON_1        |   Digital 2 to GND
 BUTTON_2        |   Digital 3 to GND
 BUTTON_3        |   Digital 4 to GND
-BUZZER          |   PIN 8 to GND
+BUZZER          |   PIN 9 to GND
 
