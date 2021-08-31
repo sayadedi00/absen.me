@@ -1,6 +1,6 @@
 Arduino Based Attendance System
 ===
-RFID Based Attendance System using Arduino and Adafruit Fingerprint Module.
+Attendance System using Arduino and Adafruit Fingerprint Module.
 
 # Why did we decide to make it?
 Attendance in University is generally paper based which may sometimes cause errors. Taking attendance manually consumes more time. So, In this project we have designed Fingerprint Based Attendance System using Arduino and Adafruit Fingerprint Module.
